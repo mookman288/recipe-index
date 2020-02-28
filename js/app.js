@@ -290,12 +290,16 @@ const getRecipes = () => {
 };
 
 const app = (() => {
-	search = false;
-	cache = (!params.get('c')) ? JSON.parse(localStorage.getItem('recipes')) ?? {} : {};
-	recipes = (typeof cache.data !== 'undefined') ? cache.data : {};
-
 	//Clear the cache to fetch new recipes.
-	if (params.get('c')) handleInfo('Cache cleared: fetching new recipes.');
+	if (params.get('c')) {
+		localStorage.removeItem('recipes');
+
+		handleInfo('Cache cleared: fetching new recipes.');
+	}
+
+	search = false;
+	cache = JSON.parse(localStorage.getItem('recipes')) ?? {};
+	recipes = (typeof cache.data !== 'undefined') ? cache.data : {};
 
 	document.querySelector('html').setAttribute('lang', 'en');
 
