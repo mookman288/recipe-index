@@ -30,10 +30,10 @@
 		}
 	],
 	"recipe": [
-		"Chop &$1",
+		"Chop &$0",
 		"Combine ingredients and fold until smooth"
 	],
-	"keywords": [
+	"tags": [
 		"lunch",
 		"snack",
 		"vegetarian"
