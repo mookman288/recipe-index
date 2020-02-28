@@ -53,6 +53,11 @@
 		},
 		{
 			"amount": "1",
+			"ingredient": "roma tomato",
+			"addendum": "quartered and de-seeded"
+		},
+		{
+			"amount": "1",
 			"ingredient": "jalapeño",
 			"addendum": "halved and de-seeded"
 		}
@@ -61,7 +66,7 @@
 		"Place &$0 in two quart or larger saucepan",
 		"Add &$1 and fry on medium heat until lightly brown",
 		"Mix &$2, &$3, &$4, and &$5 and crush until a uniform Seasoning Mix appears",
-		"Add Seasoning Mix, &$8, and &$9 and fry for 30-45 seconds",
+		"Add Seasoning Mix, &$8, &$9, and &$10 and fry for 30-45 seconds",
 		"Add &$6 and &$7; warning: may steam loudly",
 		"Increase heat to high and mix ingredients thoroughly",
 		"When liquid begins to boil, cover, and reduce heat to low",

@@ -88,11 +88,12 @@ const getElementHtml = (recipe, compact, hideButton) => {
 				<ol>`;
 		recipe.recipe.forEach((line) => {
 			if (typeof recipe.ingredients !== 'undefined') {
-				recipe.ingredients.forEach((ingredient, key) => {
-					if (typeof ingredient.ingredient !== 'undefined') {
-						line = line.replace('&$' + key, ingredient.ingredient.ucwords());
+				for (i = recipe.ingredients.length - 1; i >= 0; i--) {
+					if (typeof recipe.ingredients[i] !== 'undefined'
+						&& typeof recipe.ingredients[i].ingredient !== 'undefined') {
+						line = line.replace('&$' + i, recipe.ingredients[i].ingredient.ucwords());
 					}
-				});
+				}
 			}
 
 			steps += '<li>' + line + '</li>';
