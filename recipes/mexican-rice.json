@@ -1,0 +1,76 @@
+{
+	"name": "mexican rice",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This is a vegetarian take on the classic tomato boullion (caldo de tomate con sabor de pollo) mexican rice.",
+	"ingredients": [
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "olive oil"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "long grain rice"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "granulated garlic"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "onion powder"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "cumin powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "cube",
+			"ingredient": "maggi&reg; halal chicken bouillon",
+			"addendum": "vegetarian"
+		},
+		{
+			"amount": "4",
+			"measurement": "oz",
+			"ingredient": "tomato sauce"
+		},
+		{
+			"amount": "2",
+			"measurement": "cups",
+			"ingredient": "water"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cups",
+			"ingredient": "mixed vegetables",
+			"addendum": "frozen"
+		},
+		{
+			"amount": "1",
+			"ingredient": "jalapeño",
+			"addendum": "halved and de-seeded"
+		}
+	],
+	"recipe": [
+		"Place &$0 in two quart or larger saucepan",
+		"Add &$1 and fry on medium heat until lightly brown",
+		"Mix &$2, &$3, &$4, and &$5 and crush until a uniform Seasoning Mix appears",
+		"Add Seasoning Mix, &$8, and &$9 and fry for 30-45 seconds",
+		"Add &$6 and &$7; warning: may steam loudly",
+		"Increase heat to high and mix ingredients thoroughly",
+		"When liquid begins to boil, cover, and reduce heat to low",
+		"After 15 minutes, remove from heat and let rest for 10-20 minutes",
+		"Fluff and serve"
+	],
+	"tags": [
+		"dinner",
+		"side dish",
+		"vegetarian"
+	]
+}

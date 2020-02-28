@@ -60,6 +60,7 @@ const getElementHtml = (recipe, compact, hideButton) => {
 					.replace('.66', '&frac23;')
 					.replace('.67', '&frac23;')
 					.replace('.5', '&frac12;')
+					.replace('.50', '&frac12;')
 					.replace('.33', '&frac13;')
 					.replace('.34', '&frac13;')
 					.replace('.25', '&frac14;')
@@ -130,6 +131,7 @@ const getElementHtml = (recipe, compact, hideButton) => {
 				` + button + `
 			</div>
 		</div>
+		<div class="divider"></div>
 	`;
 };
 
@@ -149,11 +151,17 @@ const parseRecipe = (recipe, slug, store, update) => {
 		}
 	}
 
-	if (update) {
-		document.getElementById('content').insertAdjacentHTML('beforeend', getElementHtml(recipe, true));
+	if (update) updateRecipes();
+}
 
-		processSearch();
+const updateRecipes = () => {
+	document.getElementById('content').innerHTML = '';
+
+	for (slug in recipes) {
+		document.getElementById('content').insertAdjacentHTML('beforeend', getElementHtml(recipes[slug], true));
 	}
+
+	processSearch();
 }
 
 const processSearch = () => {
@@ -165,6 +173,9 @@ const processSearch = () => {
 
 	if (currentRecipe && typeof recipes !== 'undefined') {
 		if (recipes[currentRecipe] !== 'undefined') {
+			document.querySelector('title').innerHTML = recipes[currentRecipe].name.ucwords() + ' - '
+				+ document.querySelector('title').innerHTML;
+			document.querySelector('.meta-description').setAttribute('content', recipes[currentRecipe].description);
 			document.getElementById('content').innerHTML = getElementHtml(recipes[currentRecipe], false, true);
 		} else {
 			handleError('No recipe was found referencing that slug.');
@@ -211,14 +222,9 @@ const processSearch = () => {
 		if (Object.keys(results).length > 0) {
 			handleInfo("Searching for: " + searchTerm);
 
-			for (const slug in results) {
-				parseRecipe(
-					recipes[slug],
-					slug,
-					false,
-					Object.is(Object.keys(recipes)[Object.keys(recipes).length - 1], slug)
-				);
-			}
+			recipes = results;
+
+			updateRecipes();
 		} else {
 			handleError('No recipes were found using those search terms.')
 		}
@@ -231,7 +237,6 @@ const processSearch = () => {
 const getRecipes = () => {
 	if (typeof recipes === 'undefined' || Object.keys(recipes).length < 1
 		|| Math.abs(new Date() - new Date(cache.timestamp) > expiry)) {
-
 
 		fetch('recipes.json')
 			.then((response) => {
