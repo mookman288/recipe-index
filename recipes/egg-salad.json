@@ -1,0 +1,41 @@
+{
+	"name": "egg salad",
+	"author": "github@mookman288",
+	"description": "Egg salad is a simple, yet satisfying recipe that can be used on sandwiches or as a snack.",
+	"ingredients": [
+		{
+			"amount": 2,
+			"ingredient": "hard boiled eggs",
+			"addendum": "cooled"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "mayonnaise"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "mustard"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "tsp",
+			"ingredient": "kosher salt"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "tsp",
+			"ingredient": "pepper"
+		}
+	],
+	"recipe": [
+		"Chop &$1",
+		"Combine ingredients and fold until smooth"
+	],
+	"keywords": [
+		"lunch",
+		"snack",
+		"vegetarian"
+	]
+}
