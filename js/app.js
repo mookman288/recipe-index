@@ -11,9 +11,7 @@ String.prototype.ucwords = function() {
 const expiry = 86400000;
 const params = new URLSearchParams(window.location.search);
 
-let search;
-let cache = JSON.parse(localStorage.getItem('recipes')) ?? {};
-let recipes = (typeof cache.data !== 'undefined') ? cache.data : {};
+let search, cache, recipes;
 
 const handleError = (error) => {
 	document.getElementById('notices').innerHTML = '';
@@ -30,7 +28,19 @@ const handleInfo = (info) => {
 };
 
 const getElementHtml = (recipe, compact, hideButton) => {
-	let description = '', ingredients = '', steps = '', tags = '';
+	let author = '', description = '', ingredients = '', steps = '', tags = '';
+
+	if (typeof recipe.author !== 'undefined') {
+		author = '<p>Author: ';
+
+		if (typeof recipe.authorLink !== 'undefined') {
+			author += '<a href="' + recipe.authorLink + '" target="_blank">' + recipe.author + '</a>';
+		} else {
+			author = recipe.author;
+		}
+
+		author += '</p>';
+	}
 
 	if (typeof recipe.description !== 'undefined') {
 		recipe.description.split(/\r?\n/).forEach((line) => {
@@ -95,7 +105,7 @@ const getElementHtml = (recipe, compact, hideButton) => {
 	if (typeof recipe.tags !== 'undefined') {
 		tags = '<p>Tags: ';
 
-		recipe.tags.forEach((tag) => { console.log(tag);
+		recipe.tags.forEach((tag) => {
 			tags += '<a href="?s=' + encodeURIComponent(tag) + '" class="btn btn-sm">' + tag + '</a> ';
 		});
 
@@ -108,6 +118,7 @@ const getElementHtml = (recipe, compact, hideButton) => {
 		<div class="panel">
 			<div class="panel-header">
 				<h2>` + recipe.name.ucwords() + `</h2>
+				` + author + `
 			</div>
 			<div class="panel-body">
 				` + description + `
@@ -166,9 +177,6 @@ const processSearch = () => {
 		document.getElementById('content').innerHTML = '';
 
 		searchTerm.split(' ').forEach((term) => {
-
-			console.log(term);
-
 			for (const slug in recipes) {
 				const regex = new RegExp(term, 'g');
 
@@ -223,6 +231,8 @@ const processSearch = () => {
 const getRecipes = () => {
 	if (typeof recipes === 'undefined' || Object.keys(recipes).length < 1
 		|| Math.abs(new Date() - new Date(cache.timestamp) > expiry)) {
+
+
 		fetch('recipes.json')
 			.then((response) => {
 				if (response.status !== 200) {
@@ -275,6 +285,11 @@ const getRecipes = () => {
 
 const app = (() => {
 	search = false;
+	cache = (!params.get('c')) ? JSON.parse(localStorage.getItem('recipes')) ?? {} : {};
+	recipes = (typeof cache.data !== 'undefined') ? cache.data : {};
+
+	//Clear the cache to fetch new recipes.
+	if (params.get('c')) handleInfo('Cache cleared: fetching new recipes.');
 
 	document.querySelector('html').setAttribute('lang', 'en');
 

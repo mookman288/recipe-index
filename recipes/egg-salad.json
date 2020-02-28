@@ -1,6 +1,7 @@
 {
 	"name": "egg salad",
-	"author": "github@mookman288",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
 	"description": "Egg salad is a simple, yet satisfying recipe that can be used on sandwiches or as a snack.",
 	"ingredients": [
 		{
