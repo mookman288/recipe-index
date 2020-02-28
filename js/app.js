@@ -93,18 +93,16 @@ const getElementHtml = (recipe, compact, hideButton) => {
 	}
 
 	if (typeof recipe.tags !== 'undefined') {
-		tags = 'Tags: ';
+		tags = '<p>Tags: ';
 
 		recipe.tags.forEach((tag) => { console.log(tag);
 			tags += '<a href="?s=' + encodeURIComponent(tag) + '" class="btn btn-sm">' + tag + '</a> ';
 		});
+
+		tags += '</p>';
 	}
 
-	const button = (!hideButton) ? `
-			<div class="panel-footer">
-				<a href="?r=` + recipe.slug + `" class="btn btn-primary">Read Recipe</a>
-			</div>
-	` : '';
+	const button = (!hideButton) ? '<a href="?r=' + recipe.slug + '" class="btn btn-primary">Read Recipe</a>' : '';
 
 	return `
 		<div class="panel">
@@ -115,9 +113,11 @@ const getElementHtml = (recipe, compact, hideButton) => {
 				` + description + `
 				` + ingredients + `
 				` + steps + `
-				` + tags + `
 			</div>
-			` + button + `
+			<div class="panel-footer">
+				` + tags + `
+				` + button + `
+			</div>
 		</div>
 	`;
 };
