@@ -6,60 +6,51 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content="A simplified index of common recipes without long explanations or graphics."
 			class="meta-description" />
-		<link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
-		<!-- <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css"> -->
-		<!-- <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css"> -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css" />
 	</head>
-	<body class="container">
-		<div class="columns">
-			<div class="col-11 col-sm-12 col-mx-auto">
-				<header class="m-2">
-					<div class="columns">
-						<div class="col-8 col-md-6 col-sm-12">
-							<h1>Recipe Index</h1>
+	<body>
+		<div class="section">
+			<div class="container">
+				<header>
+					<nav class="navbar" role="navigation" aria-label="main navigation">
+						<div class="navbar-brand">
+							<a class="navbar-item is-paddingless" href="index.html">
+								<span class="button is-black branding">Recipe Index</span>
+							</a>
+							<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+								data-target="navbar-actual">
+								<span aria-hidden="true"></span>
+								<span aria-hidden="true"></span>
+								<span aria-hidden="true"></span>
+							</a>
 						</div>
-						<div class="col-4 col-md-6 col-sm-12">
-							<form method="get" action="index.html" class="mt-2 float-right">
-								<div class="input-group">
-									<label class="input-group-addon addon-lg" for="s">Search</label>
-									<input id="s" name="s" type="text" class="form-input-lg px-1" />
-									<input type="submit" class="btn btn-primary input-group-btn btn-lg" value="&#x1F50D;" />
-								</div>
-							</form>
-						</div>
-					</div>
-				</header>
-				<section class="m-2">
-					<div class="columns">
-						<div class="col-2 col-md-4 col-sm-12">
-							<div class="panel">
-								<div class="panel-header">
-									<h2>Main Menu</h2>
-								</div>
-								<div class="panel-body">
-									<nav>
-										<ul class="nav">
-											<li class="nav-item nav-home">
-												<a href="index.html">Home</a>
-											</li>
-											<li class="nav-item">
-												<a href="https://github.com/mookman288/recipe-index/" target="_blank">
-													Github
-												</a>
-											</li>
-										</ul>
-									</nav>
-								</div>
-								<div class="panel-footer"></div>
+						<div id="navbar-actual" class="navbar-menu">
+							<div class="navbar-start">
+								<a href="https://github.com/mookman288/recipe-index/" target="_blank" class="navbar-item">
+									Github
+								</a>
+							</div>
+							<div class="navbar-end">
+								<form method="get" action="index.html">
+									<div class="field has-addons">
+										<div class="control is-expanded">
+											<input id="s" name="s" type="text" class="input" placeholder="Search&hellip;" />
+										</div>
+										<div class="control">
+											<input type="submit" class="button is-primary" value="&#x1F50D;" />
+										</div>
+									</div>
+								</form>
 							</div>
 						</div>
-						<div class="col-9 col-md-7 col-sm-12 col-ml-auto">
-							<div id="notices"></div>
-							<div id="content"></div>
-						</div>
-					</div>
+					</nav>
+				</header>
+				<section class="content">
+					<h1 class="title">Index of Recipes</h1>
+					<div id="notices"></div>
+					<div id="content" class="columns is-multiline"></div>
 				</section>
-				<footer class="text-center">
+				<footer class="has-text-centered">
 					<a href="?c=true">Fetch New Recipes</a>
 				</footer>
 			</div>

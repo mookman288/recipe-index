@@ -3,7 +3,7 @@
 
 This is a simplistic JavaScript application designed to index various recipes without long explanations or graphics. The recipes themselves will be attributed to their original author where possible.
 
-It uses the [Spectre.css](https://github.com/picturepan2/spectre) design framework.
+This application uses the [Bulma](https://bulma.io/) design framework.
 
 ## Demo
 

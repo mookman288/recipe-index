@@ -15,15 +15,17 @@ let search, cache, recipes;
 
 const handleError = (error) => {
 	document.getElementById('notices').innerHTML = '';
+	document.getElementById('notices').className = 'content';
 	document.getElementById('notices').insertAdjacentHTML('beforeend', `
-		<p class="label label-error">` + error + `</p>
+		<div class="notification is-danger">` + error + `</div>
 	`);
 };
 
 const handleInfo = (info) => {
 	document.getElementById('notices').innerHTML = '';
+	document.getElementById('notices').className = 'content';
 	document.getElementById('notices').insertAdjacentHTML('beforeend', `
-		<p class="label label-secondary">` + info + `</p>
+		<div class="notification is-primary">` + info + `</div>
 	`);
 };
 
@@ -31,15 +33,11 @@ const getElementHtml = (recipe, compact, hideButton) => {
 	let author = '', description = '', ingredients = '', steps = '', tags = '';
 
 	if (typeof recipe.author !== 'undefined') {
-		author = '<p>Author: ';
-
 		if (typeof recipe.authorLink !== 'undefined') {
 			author += '<a href="' + recipe.authorLink + '" target="_blank">' + recipe.author + '</a>';
 		} else {
 			author = recipe.author;
 		}
-
-		author += '</p>';
 	}
 
 	if (typeof recipe.description !== 'undefined') {
@@ -48,9 +46,9 @@ const getElementHtml = (recipe, compact, hideButton) => {
 		});
 	}
 
-	if (typeof recipe.ingredients !== 'undefined' && !compact) {
+	if (typeof recipe.ingredients !== 'undefined') {
 		ingredients = `
-			<div class="panel-body">
+
 				<h3>Ingredients</h3>
 				<ul>`;
 		recipe.ingredients.forEach((line) => {
@@ -78,12 +76,12 @@ const getElementHtml = (recipe, compact, hideButton) => {
 		});
 		ingredients += `
 				</ul>
-			</div>`;
+			`;
 	}
 
-	if (typeof recipe.recipe !== 'undefined' && !compact) {
+	if (typeof recipe.recipe !== 'undefined') {
 		steps = `
-			<div class="panel-body">
+
 				<h3>Recipe</h3>
 				<ol>`;
 		recipe.recipe.forEach((line) => {
@@ -101,38 +99,48 @@ const getElementHtml = (recipe, compact, hideButton) => {
 
 		steps += `
 				</ol>
-			</div>`;
+			`;
 	}
 
 	if (typeof recipe.tags !== 'undefined') {
-		tags = '<p>Tags: ';
-
 		recipe.tags.forEach((tag) => {
-			tags += '<a href="?s=' + encodeURIComponent(tag) + '" class="btn btn-sm">' + tag + '</a> ';
+			tags += '<a href="?s=' + encodeURIComponent(tag) + '" class="button is-primary is-light is-small">' + tag
+				+ '</a>&nbsp;';
 		});
-
-		tags += '</p>';
 	}
 
-	const button = (!hideButton) ? '<a href="?r=' + recipe.slug + '" class="btn btn-primary">Read Recipe</a>' : '';
+	const button = '<a href="?r=' + recipe.slug + '" class="button is-link is-fullwidth">Read Recipe</a>';
 
 	return `
-		<div class="panel">
-			<div class="panel-header">
-				<h2>` + recipe.name.ucwords() + `</h2>
-				` + author + `
-			</div>
-			<div class="panel-body">
-				` + description + `
-				` + ingredients + `
-				` + steps + `
-			</div>
-			<div class="panel-footer">
-				` + tags + `
-				` + button + `
+		<div class="column` + ((!compact) ? '' : ' is-half') + `">
+			<div class="panel is-info">
+				<div class="panel-heading">
+					<h2 class="is-subtitle is-marginless has-text-white is-size-4">` + recipe.name.ucwords() + `</h2>
+				</div>
+				<div class="panel-block">
+					` + author + `
+				</div>
+				<div class="panel-block is-block">
+					` + description + `
+				</div>
+				` + ((!compact) ? `
+				<div class="panel-block is-block">
+					` + ingredients + `
+				</div>
+				<div class="panel-block is-block">
+					` + steps + `
+				</div>
+				` : '') + `
+				<div class="panel-block is-block">
+					` + tags + `
+				</div>
+				` + ((!hideButton) ? `
+				<div class="panel-block">
+					` + button + `
+				</div>
+				` : '') + `
 			</div>
 		</div>
-		<div class="divider"></div>
 	`;
 };
 
@@ -172,6 +180,8 @@ const processSearch = () => {
 	let currentRecipe = params.get('r');
 	let searchTerm = params.get('s');
 
+	if (currentRecipe || searchTerm) document.querySelector('.branding').innerHTML = '&larr; Back';
+
 	if (currentRecipe && typeof recipes !== 'undefined') {
 		if (recipes[currentRecipe] !== 'undefined') {
 			document.querySelector('title').innerHTML = recipes[currentRecipe].name.ucwords() + ' - '
@@ -185,6 +195,8 @@ const processSearch = () => {
 		let results = {};
 
 		document.getElementById('s').value = searchTerm;
+
+		document.querySelector('h1').innerHTML = 'Searching for: ' + searchTerm;
 
 		document.getElementById('content').innerHTML = '';
 
@@ -221,7 +233,7 @@ const processSearch = () => {
 		});
 
 		if (Object.keys(results).length > 0) {
-			handleInfo("Searching for: " + searchTerm);
+			handleInfo("Number of results: " + Object.keys(results).length);
 
 			recipes = results;
 
@@ -229,9 +241,6 @@ const processSearch = () => {
 		} else {
 			handleError('No recipes were found using those search terms.')
 		}
-
-	} else {
-		document.querySelector('.nav-home').className += ' active';
 	}
 }
 
