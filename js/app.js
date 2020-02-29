@@ -112,7 +112,7 @@ const getElementHtml = (recipe, compact, hideButton) => {
 	const button = '<a href="?r=' + recipe.slug + '" class="button is-link is-fullwidth">Read Recipe</a>';
 
 	return `
-		<div class="column` + ((!compact) ? '' : ' is-half') + `">
+		<div class="column` + ((!compact) ? '' : ' is-half-desktop') + `">
 			<div class="panel is-info">
 				<div class="panel-heading">
 					<h2 class="is-subtitle is-marginless has-text-white is-size-4">` + recipe.name.ucwords() + `</h2>
