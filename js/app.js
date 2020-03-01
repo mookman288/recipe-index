@@ -30,7 +30,7 @@ const handleInfo = (info) => {
 };
 
 const getElementHtml = (recipe, compact, hideButton) => {
-	let author = '', description = '', ingredients = '', steps = '', tags = '';
+	let author = '', description = '', ingredients = '', steps = '', tags = '', extra = '';
 
 	if (typeof recipe.author !== 'undefined') {
 		if (typeof recipe.authorLink !== 'undefined') {
@@ -48,7 +48,7 @@ const getElementHtml = (recipe, compact, hideButton) => {
 
 	if (typeof recipe.ingredients !== 'undefined') {
 		ingredients = `
-
+			<div class="panel-block is-block">
 				<h3>Ingredients</h3>
 				<ul>`;
 		recipe.ingredients.forEach((line) => {
@@ -76,12 +76,13 @@ const getElementHtml = (recipe, compact, hideButton) => {
 		});
 		ingredients += `
 				</ul>
+			</div>
 			`;
 	}
 
 	if (typeof recipe.recipe !== 'undefined') {
 		steps = `
-
+			<div class="panel-block is-block">
 				<h3>Recipe</h3>
 				<ol>`;
 		recipe.recipe.forEach((line) => {
@@ -99,14 +100,35 @@ const getElementHtml = (recipe, compact, hideButton) => {
 
 		steps += `
 				</ol>
+			</div>
 			`;
 	}
 
 	if (typeof recipe.tags !== 'undefined') {
+		tags = '<div class="panel-block is-block">';
+
 		recipe.tags.forEach((tag) => {
 			tags += '<a href="?s=' + encodeURIComponent(tag) + '" class="button is-primary is-light is-small">' + tag
 				+ '</a>&nbsp;';
 		});
+
+		tags += '</div>';
+	}
+
+	if (typeof recipe.servings !== 'undefined' || typeof recipe.calories !== 'undefined') {
+		extra = '<div class="panel-block is-block">';
+
+		if (typeof recipe.servings !== 'undefined' && recipe.servings > 1) {
+			extra += 'Servings: ' + recipe.servings;
+
+			if (typeof recipe.calories !== 'undefined') {
+				extra += ' (' + Math.round(recipe.calories / recipe.servings) + ' calories per serving)';
+			}
+		} else if (typeof recipe.calories !== 'undefined') {
+			extra += 'Calories: ' + recipe.calories;
+		}
+
+		extra += '</div>';
 	}
 
 	const button = '<a href="?r=' + recipe.slug + '" class="button is-link is-fullwidth">Read Recipe</a>';
@@ -124,16 +146,11 @@ const getElementHtml = (recipe, compact, hideButton) => {
 					` + description + `
 				</div>
 				` + ((!compact) ? `
-				<div class="panel-block is-block">
 					` + ingredients + `
-				</div>
-				<div class="panel-block is-block">
 					` + steps + `
-				</div>
+					` + extra + `
 				` : '') + `
-				<div class="panel-block is-block">
 					` + tags + `
-				</div>
 				` + ((!hideButton) ? `
 				<div class="panel-block">
 					` + button + `

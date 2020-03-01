@@ -1,0 +1,85 @@
+{
+	"name": "carbonara",
+	"author": "ComradePalmer",
+	"authorLink": "https://www.reddit.com/r/food/comments/cnnvvm/homemade_bucatini_and_tempeh_carbonara/",
+	"description": "A modified vegetarian alternative to vegan Carbonara.",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "Follow Your Heart&reg; VeganEgg&trade;"
+		},
+		{
+			"amount": "1",
+			"measurement": "tsp",
+			"ingredient": "kosher salt"
+		},
+		{
+			"amount": "1",
+			"measurement": "tsp",
+			"ingredient": "smoked paprika"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "lemon pepper"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "pepper"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "olive oil"
+		},
+		{
+			"amount": 4,
+			"measurement": "strips",
+			"ingredient": "MorningStar Farms&reg; bacon"
+		},
+		{
+			"amount": 12,
+			"measurement": "oz",
+			"ingredient": "spaghetti"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "pasta water",
+			"addendum": "reserved"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "heavy cream"
+		},
+		{
+			"amount": 6,
+			"measurement": "tbsp",
+			"ingredient": "parmesan cheese",
+			"addendum": "vegetarian enzymes"
+		}
+	],
+	"recipe": [
+		"Prepare a large pot of boiling water",
+		"Combine &$0, &$1, &$2, &$3, and &$4 into a Dry Ingredient Mix and set aside",
+		"Heat &$5 in a saucepan on medium heat",
+		"Fry &$6 until crispy and browned evenly",
+		"Remove &$6, pat dry, and chop, crumble, and set aside",
+		"Boil &$7 until cooked to personal preference with additional &$1 to taste",
+		"Reserve &$8 while draining &$7",
+		"Return &$6 to the saucepan on low heat and combine with the remaining &$5",
+		"Combine the Dry Ingredient Mix, &$8, and &$9 in the saucepan and remove from heat",
+		"Toss with the &$7 and serve immediately with &$10"
+	],
+	"servings": 6,
+	"calories": 2100,
+	"tags": [
+		"Italian",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}

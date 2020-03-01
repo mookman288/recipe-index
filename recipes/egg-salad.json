@@ -34,7 +34,10 @@
 		"Chop &$0",
 		"Combine ingredients and fold until smooth"
 	],
+	"servings": 1,
+	"calories": 180,
 	"tags": [
+		"American",
 		"lunch",
 		"snack",
 		"vegetarian"
