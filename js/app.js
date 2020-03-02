@@ -55,6 +55,7 @@ const getElementHtml = (recipe, compact, hideButton) => {
 			if (typeof line.amount !== 'undefined') {
 				line.amount = line.amount.toString()
 					.replace('0.', '.')
+					.replace('.75', '&frac34;')
 					.replace('.66', '&frac23;')
 					.replace('.67', '&frac23;')
 					.replace('.5', '&frac12;')
