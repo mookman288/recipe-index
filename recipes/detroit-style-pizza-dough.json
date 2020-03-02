@@ -1,0 +1,52 @@
+{
+	"name": "Detroit Style Pizza Dough",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Detroit style pizza is traditionally prepared in a square blue steel pan. Toppings are placed on top of the dough stretched to the edges. Cheese baked this way fries against the edges. This dough is the foundation of one eight-slice or two four-slice pizzas.",
+	"ingredients": [
+		{
+			"amount": "2.25",
+			"measurement": "cups",
+			"ingredient": "all-purpose flour"
+		},
+		{
+			"amount": "1.5",
+			"measurement": "tbsp",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": "1.5",
+			"measurement": "tbsp",
+			"ingredient": "yeast"
+		},
+		{
+			"amount": "0.75",
+			"measurement": "tsp",
+			"ingredient": "salt"
+		},
+		{
+			"amount": "1",
+			"measurement": "cup",
+			"ingredient": "water",
+			"addendum": "room temperature"
+		}
+	],
+	"recipe": [
+		"Combine and whisk &$0, &$1, &$2, and &$3 together in a stand mixer",
+		"Add &$4 and mix with a dough hook for two minutes until smooth",
+		"Let dough rest for 10 minutes",
+		"Knead on medium setting for 8 minutes",
+		"Hand knead on flour surface until pliable",
+		"Rest in pan for 15 minutes",
+		"Stretch dough into pan, cover, and let rest for 3 hours"
+	],
+	"calories": 1140,
+	"tags": [
+		"American",
+		"Italian",
+		"lunch",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}
