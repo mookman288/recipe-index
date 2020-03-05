@@ -1,0 +1,68 @@
+{
+	"name": "poblano rice",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This is a vegetarian Mexican rice flavored with poblano pepper.",
+	"ingredients": [
+		{
+			"amount": 4,
+			"ingredient": "poblano peppers"
+		},
+		{
+			"amount": 2,
+			"measurement": "cups",
+			"ingredient": "water"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "olive oil"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "long grain rice"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": "1.5",
+			"measurement": "tsp",
+			"ingredient": "kosher salt"
+		},
+		{
+			"amount": 3,
+			"measurement": "cloves",
+			"ingredient": "garlic",
+			"addendum": "large"
+		}
+	],
+	"recipe": [
+		"Set broiler to 500 degrees Farenheit or prepare hot comal",
+		"De-seed &$0 and slice lengthwise",
+		"Scorch &$0 until charred",
+		"Chop &$0 and place in blender with &$1",
+		"Blend into a Poblano Broth",
+		"Strain and press Poblano Broth until only a smooth liquid remains",
+		"Place &$2 in two quart or larger saucepan",
+		"Add &$3 and fry on medium heat until lightly brown",
+		"Chop &$4 and soften in saucepan with &$5",
+		"Mince &$6 and fry for 30-45 seconds",
+		"Add Poblano Broth; warning: may steam loudly",
+		"Increase heat to high and mix ingredients thoroughly",
+		"When liquid begins to boil, cover, and reduce heat to low",
+		"After 15 minutes, remove from heat and let rest for 10-20 minutes",
+		"Fluff and serve"
+	],
+	"servings": 6,
+	"calories": 1205,
+	"tags": [
+		"Mexican",
+		"dinner",
+		"side dish",
+		"vegetarian",
+		"vegan"
+	]
+}

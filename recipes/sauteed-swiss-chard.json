@@ -1,0 +1,50 @@
+{
+	"name": "sautéed swiss chard",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Sautéed swiss chard can be served inside tortillas for tacos, enchilades, or as a simple side dish.",
+	"ingredients": [
+		{
+			"amount": 2,
+			"measurement": "bunches",
+			"ingredient": "swiss chard"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "olive oil"
+		},
+		{
+			"amount": 3,
+			"measurement": "cloves",
+			"ingredient": "garlic",
+			"addendum": "large"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "kosher salt"
+		}
+	],
+	"recipe": [
+		"Wash and separate &$0 stalks from the leaves",
+		"Halve and slice &$1 and &$0 stalks",
+		"Add &$2 to a wide pan",
+		"Fry &$0 stalks and &$1 on medium heat until seared",
+		"Mince &$3 and fry for 30-45 seconds",
+		"Add &$0 leaves and &$4, cover, lower heat, and steam for 10 minutes"
+	],
+	"servings": 6,
+	"calories": 345,
+	"tags": [
+		"Mexican",
+		"dinner",
+		"side dish",
+		"vegetarian",
+		"vegan"
+	]
+}

@@ -1,0 +1,63 @@
+{
+	"name": "lime rice",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This is a vegetarian Mexican rice flavored with lime.",
+	"ingredients": [
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "olive oil"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "long grain rice"
+		},
+		{
+			"amount": 3,
+			"measurement": "cloves",
+			"ingredient": "garlic",
+			"addendum": "large"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "parsley"
+		},
+		{
+			"amount": "1.5",
+			"measurement": "tsp",
+			"ingredient": "kosher salt"
+		},
+		{
+			"amount": 3,
+			"measurement": "tablespoons",
+			"ingredient": "lime juice"
+		},
+		{
+			"amount": 2,
+			"measurement": "cups",
+			"ingredient": "water"
+		}
+	],
+	"recipe": [
+		"Place &$0 in two quart or larger saucepan",
+		"Add &$1 and fry on medium heat until lightly brown",
+		"Mince &$2 and fry with &$3 and &$4 for 30-45 seconds",
+		"Add &$5 and &$6; warning: may steam loudly",
+		"Increase heat to high and mix ingredients thoroughly",
+		"When liquid begins to boil, cover, and reduce heat to low",
+		"After 15 minutes, remove from heat and let rest for 10-20 minutes",
+		"Fluff and serve"
+	],
+	"servings": 6,
+	"calories": 980,
+	"tags": [
+		"Mexican",
+		"dinner",
+		"side dish",
+		"vegetarian",
+		"vegan"
+	]
+}
