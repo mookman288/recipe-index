@@ -184,8 +184,16 @@ const parseRecipe = (recipe, slug, store, update) => {
 const updateRecipes = () => {
 	document.getElementById('content').innerHTML = '';
 
-	for (slug in recipes) {
-		document.getElementById('content').insertAdjacentHTML('beforeend', getElementHtml(recipes[slug], true));
+	if (typeof recipes !== 'undefined' && recipes) {
+		if (Object.keys(recipes).length > 0) {
+			document.getElementById('count').innerHTML = 'There are ' + Object.keys(recipes).length + ' recipes in the index.';
+		} else {
+			document.getElementById('count').innerHTML = 'There are no recipes in the index.';
+		}
+
+		for (slug in recipes) {
+			document.getElementById('content').insertAdjacentHTML('beforeend', getElementHtml(recipes[slug], true));
+		}
 	}
 
 	processSearch();
