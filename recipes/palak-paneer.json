@@ -1,0 +1,124 @@
+{
+	"name": "palak paneer",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Palak Paneer is a rich Indian dish that combines fresh cheese and spinach.",
+	"ingredients": [
+		{
+			"amount": 12,
+			"measurement": "oz",
+			"ingredient": "paneer"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "yogurt or heavy cream",
+			"addendum": "plain, unsweetened"
+		},
+		{
+			"amount": 4,
+			"measurement": "tbsp",
+			"ingredient": "ghee"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "cumin seed"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "tomato paste"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "Ship madras curry powder"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "Deep spices garam masala powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "turmeric powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "cardamom powder"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "cumin powder"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "coriander powder"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "paprika or kashmiri chili powder"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "asafoetida or hing powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "garlic ginger paste"
+		},
+		{
+			"amount": 16,
+			"measurement": "oz",
+			"ingredient": "tender or baby spinach"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "fenugreek or methi leaves",
+			"addendum": "dried"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "water"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "pink himalayan salt"
+		}
+	],
+	"recipe": [
+		"Cube &$0 and coat in &$1",
+		"Heat &$2 in large saucepan on medium-low heat",
+		"Chop &$3 and fry with &$4 until browned",
+		"Add &$5 and toss until glistening",
+		"Combine &$6, &$7, &$8, &$9, &$10, &$11, &$12, and &$13 into a Masala",
+		"Add the Masala and &$14 and cook until sticky",
+		"Add &$15 and &$16 and cover for 10 minutes until wilted",
+		"Blend the mixture with &$17 until smooth and return to the saucepan",
+		"Add the &$0 and &$1 and cook, covered, on medium heat until a deep color emerges",
+		"Add &$18 to taste"
+	],
+	"servings": 6,
+	"calories": 2605,
+	"tags": [
+		"Indian",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}
