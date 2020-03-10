@@ -185,7 +185,9 @@ const updateRecipes = () => {
 	document.getElementById('content').innerHTML = '';
 
 	if (typeof recipes !== 'undefined' && recipes) {
-		if (Object.keys(recipes).length > 0) {
+		if (Object.keys(recipes).length == 1) {
+			document.getElementById('count').innerHTML = 'There is 1 recipe in the index.';
+		} else if (Object.keys(recipes).length > 1) {
 			document.getElementById('count').innerHTML = 'There are ' + Object.keys(recipes).length + ' recipes in the index.';
 		} else {
 			document.getElementById('count').innerHTML = 'There are no recipes in the index.';
