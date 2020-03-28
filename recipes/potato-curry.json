@@ -1,0 +1,108 @@
+{
+	"name": "potato curry",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Potato Curry is an Americanized curry that is best served with basmati rice, Indian breads, and raita",
+	"ingredients": [
+		{
+			"amount": 2,
+			"ingredient": "onions"
+		},
+		{
+			"amount": 4,
+			"measurement": "tbsp",
+			"ingredient": "ghee"
+		},
+		{
+			"amount": 4,
+			"ingredient": "potatoes"
+		},
+		{
+			"amount": 3,
+			"measurement": "cloves",
+			"ingredient": "garlic"
+		},
+		{
+			"amount": "1.5",
+			"measurement": "tsp",
+			"ingredient": "ginger"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "salt"
+		},
+		{
+			"amount": 3,
+			"measurement": "tbsp",
+			"ingredient": "bolst's mild curry powder"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tbsp",
+			"ingredient": "bolst's hot curry powder"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "cumin powder"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "turmeric powder"
+		},
+		{
+			"amount": 4,
+			"measurement": "tbsp",
+			"ingredient": "cashews",
+			"addendum": "raw dry roasted"
+		},
+		{
+			"amount": 2,
+			"measurement": "cups",
+			"ingredient": "water"
+		},
+		{
+			"amount": 28,
+			"measurement": "oz",
+			"ingredient": "crushed tomatoes"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "fresh mint"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "deep® garam masala powder"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "plain yogurt"
+		}
+	],
+	"recipe": [
+		"Dice &$0",
+		"Heat a large pot with &$1 and fry &$0 on medium heat until browned",
+		"Chop &$2 into one inch segments",
+		"Add &$2 to the pot and fry, moving constantly, until translucent and golden",
+		"Mince &$3 and &$4",
+		"Add &$3, &$4, &$5, &$6, &$7, &$8, and &$9 to the pot and cook for 1 minute",
+		"Grind &$10 into a rough powder",
+		"Add &$10 to the pot with &$11 and simmer for ten minutes",
+		"Add &$12 to the pot and simmer, partially covered, until fat separates",
+		"Mince &$13",
+		"Remove from heat and add &$13, &$14, and &$15 to the pot, stir until combined, and serve"
+	],
+	"servings": 8,
+	"calories": 1700,
+	"tags": [
+		"Indian",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}

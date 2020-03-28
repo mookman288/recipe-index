@@ -1,0 +1,106 @@
+{
+	"name": "red beans",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Red Beans is an affordable and delicious stew often served with buttered white rice, bread, and hot sauce",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "pound",
+			"ingredient": "red kidney or small red beans",
+			"addendum": "soaked overnight and rinsed"
+		},
+		{
+			"amount": 3,
+			"ingredient": "bay leaves"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "vegetable bouillon base"
+		},
+		{
+			"amount": 2,
+			"ingredient": "tofurky® andouille sausages"
+		},
+		{
+			"amount": 3,
+			"measurement": "tbsp",
+			"ingredient": "olive oil"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": 1,
+			"ingredient": "green bell pepper"
+		},
+		{
+			"amount": 2,
+			"measurement": "stalks",
+			"ingredient": "celery"
+		},
+		{
+			"amount": 3,
+			"measurement": "cloves",
+			"ingredient": "garlic"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "tomato paste"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "thyme"
+		},
+		{
+			"amount": "1.5",
+			"measurement": "tbsp",
+			"ingredient": "tony chachere's® creole seasoning"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "worcestershire sauce",
+			"addendum": "vegetarian"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "red wine vinegar"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "flat leaf parsley"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "green onion"
+		}
+	],
+	"recipe": [
+		"Simmer the &$0 with &$1 and &$2 in a large pot on medium-high heat for one hour, adding water as necessary",
+		"Slice &$3 into rounds",
+		"Add half of the &$4 to a skillet on medium heat and fry &$3 until browned, set aside",
+		"Dice &$5, &$6, and &$7, and fry until browned with the remaining &$4",
+		"Mince &$8 and add to the skillet for 1 minute",
+		"Add &$9, &$10, and &$11 to the skillet for 30 seconds",
+		"Deglaze the pan with &$12 and &$13",
+		"Add skillet contents to the large pot and cook for two hours or until the beans are tender",
+		"Smash one cup of the Red Beans and re-add to the pot",
+		"Add &$3, &$14, and &$15 to the Red Beans and serve"
+	],
+	"servings": 12,
+	"calories": 2955,
+	"tags": [
+		"American",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}
