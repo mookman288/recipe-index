@@ -1,0 +1,56 @@
+{
+	"name": "new york style pizza dough",
+	"author": "HomeBaker",
+	"authorLink": "https://imgur.com/a/IolsNbc",
+	"description": "This is a slightly modified version of HomeBaker's NY style pizza dough. Makes 2 medium 8 slice pizzas.",
+	"ingredients": [
+		{
+			"amount": 650,
+			"measurement": "grams",
+			"ingredient": "flour"
+		},
+		{
+			"amount": 3,
+			"measurement": "grams",
+			"ingredient": "instant dry yeast"
+		},
+		{
+			"amount": 13,
+			"measurement": "grams",
+			"ingredient": "salt"
+		},
+		{
+			"amount": 10,
+			"measurement": "grams",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": 370,
+			"measurement": "grams",
+			"ingredient": "water",
+			"addendum": "room temperature"
+		},
+		{
+			"amount": 32,
+			"measurement": "grams",
+			"ingredient": "olive oil"
+		}
+	],
+	"recipe": [
+		"Whisk &$0, &$1, &$2, and &$3 together into a Dry Ingredient Mix",
+		"Mix &$4 and &$5 in a stand mixer",
+		"Slowly add the Dry Ingredient Mix to the stand mixer with a dough hook",
+		"Process on medium-low power until silky and smooth",
+		"Refrigerate for 44 hours before use",
+		"Let warm to room temperature for 4 hours before use"
+	],
+	"servings": 16,
+	"calories": 2710,
+	"tags": [
+		"American",
+		"Italian",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}

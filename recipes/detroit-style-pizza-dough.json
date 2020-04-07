@@ -20,23 +20,30 @@
 			"ingredient": "yeast"
 		},
 		{
+			"amount": "1",
+			"measurement": "cup",
+			"ingredient": "water",
+			"addendum": "room temperature"
+		},
+		{
 			"amount": "0.75",
 			"measurement": "tsp",
 			"ingredient": "salt"
 		},
 		{
-			"amount": "1",
-			"measurement": "cup",
-			"ingredient": "water",
-			"addendum": "room temperature"
+			"amount": "1.5",
+			"measurement": "tbsp",
+			"ingredient": "olive oil"
 		}
 	],
 	"recipe": [
-		"Combine and whisk &$0, &$1, &$2, and &$3 together in a stand mixer",
-		"Add &$4 and mix with a dough hook for two minutes until smooth",
+		"Combine and whisk &$0, &$1, and &$2 together in a stand mixer",
+		"Add &$3 and mix with a dough hook for two minutes until smooth",
 		"Let dough rest for 10 minutes",
+		"Add &$4 and mix with the dough",
 		"Knead on medium setting for 8 minutes",
 		"Hand knead on flour surface until pliable",
+		"Add &$5 to the pan and coat completely",
 		"Rest in pan for 15 minutes",
 		"Stretch dough into pan, cover, and let rest for 3 hours"
 	],
