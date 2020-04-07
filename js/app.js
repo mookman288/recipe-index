@@ -340,5 +340,10 @@ const app = (() => {
 
 	document.querySelector('html').setAttribute('lang', 'en');
 
+	document.querySelector('.qr-code').setAttribute(
+		'src',
+		'https://chart.googleapis.com/chart?chs=244x244&cht=qr&choe=UTF-8&chl=' + window.location.href
+	);
+
 	getRecipes();
 })();
