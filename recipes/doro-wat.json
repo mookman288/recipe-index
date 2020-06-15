@@ -1,0 +1,92 @@
+{
+	"name": "doro wat",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Doro Wat is a rich Ethiopian stew that is often served with Injera bread.",
+	"ingredients": [
+		{
+			"amount": 2,
+			"ingredient": "red potatoes"
+		},
+		{
+			"amount": 3,
+			"measurement": "tbsp",
+			"ingredient": "butter"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "pink himalayan salt"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "garlic ginger paste"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "cardamom powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "berbere seasoning"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "garam masala"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "fresh thyme"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "tomato paste"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "red wine vinegar"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "lime juice"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": "1.5",
+			"measurement": "cups",
+			"ingredient": "water"
+		}
+	],
+	"recipe": [
+		"Peel, chop, and boil &$0 until tender",
+		"Heat &$1 in a heavy pot on medium heat",
+		"Dice &$2 and fry with &$3 until browned",
+		"Lower heat to low and add &$4, &$5, &$6, &$7, and &$8 to the pot, cooking for 30 seconds",
+		"Raise heat to medium-low and add &$9, &$10, &$11, and &$12 to the pot, cooking until thick and sticky",
+		"Add &$13 and simmer on medium heat, covered, until fat separates and stew thickens"
+	],
+	"servings": 4,
+	"calories": 750,
+	"tags": [
+		"Ethiopian",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}

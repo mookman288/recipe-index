@@ -1,0 +1,57 @@
+{
+	"name": "instant injera",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This variation of Injera bread hastens the process by avoiding the sourdough process.",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "teff flour"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "buckwheat flour"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "black volcanic salt"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "baking soda"
+		},
+		{
+			"amount": "2.5",
+			"measurement": "cups",
+			"ingredient": "carbonated water"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "white vinegar"
+		},
+		{
+			"ingredient": "spray oil"
+		}
+	],
+	"recipe": [
+		"Heat a crêpe pan on medium heat",
+		"Combine &$0, &$1, &$2, &$3, &$4, and &$5 quickly and beat briskly until just combined",
+		"Use &$6 liberally and spoon batter into pan until just covered",
+		"Cook batter until the top sheen has disappeared and becomes dull",
+		"Flip Injera bread and cook until both sides are lightly browned",
+		"Roll the Injera bread and allow to steam under a cotton tea towel"
+	],
+	"servings": 8,
+	"calories": 930,
+	"tags": [
+		"Ethiopian",
+		"dinner",
+		"side dish",
+		"vegetarian"
+	]
+}

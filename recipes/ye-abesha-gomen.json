@@ -1,0 +1,68 @@
+{
+	"name": "ye'abesha gomen",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This variation of Ye'abesha Gomen uses spinach instead of collard greens or kale.",
+	"ingredients": [
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "niter kibbeh butter"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "pink himalayan salt"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "garlic ginger paste"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "berbere seasoning"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "cumin powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "coriander powder"
+		},
+		{
+			"amount": 12,
+			"measurement": "oz",
+			"ingredient": "tender or baby spinach"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "lemon juice"
+		}
+	],
+	"recipe": [
+		"Heat &$0 in large saucepan on medium-low heat",
+		"Chop &$1 and fry with &$2 until browned",
+		"Add &$3, &$4, &$5, and &$6 and cook until sticky",
+		"Chop &$7 roughly",
+		"Add &$7 and &$8 to the saucepan and cover for 10 minutes until wilted",
+		"Remove cover and cook until glistening and water has evaporated"
+	],
+	"servings": 4,
+	"calories": 540,
+	"tags": [
+		"Ethiopian",
+		"dinner",
+		"side dish",
+		"vegetarian"
+	]
+}

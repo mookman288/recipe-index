@@ -1,0 +1,70 @@
+{
+	"name": "berbere seasoning",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Berbere seasoning is used in Ethiopian cuisine.",
+	"ingredients": [
+		{
+			"amount": 5,
+			"ingredient": "black peppercorns"
+		},
+		{
+			"amount": 10,
+			"ingredient": "cardamom pods",
+			"addendum": "roasted, shelled"
+		},
+		{
+			"amount": 10,
+			"ingredient": "cloves"
+		},
+
+		{
+			"amount": 15,
+			"ingredient": "fenugreek seeds"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "granulated garlic"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "onion powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "ginger powder"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "salt",
+			"addendum": "pink himalayan"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "kashmiri chili powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "sweet paprika powder"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "turmeric"
+		}
+	],
+	"recipe": [
+		"Combine all ingredients and grind until a smooth powder forms"
+	],
+	"tags": [
+		"Ethiopian",
+		"seasoning",
+		"vegetarian"
+	]
+}
