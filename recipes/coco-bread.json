@@ -1,0 +1,69 @@
+{
+	"name": "Coco Bread",
+	"author": "African Bites",
+	"authorLink": "https://www.africanbites.com/coco-bread/",
+	"description": "Slightly modified Coco Bread recipe, popular to serve on its own with cheese, or with a nice Jamaican curry.",
+	"ingredients": [
+		{
+			"amount": 3,
+			"measurement": "tbsp",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": 4,
+			"measurement": "tbsp",
+			"ingredient": "butter",
+			"addendum": "room temperature"
+		},
+		{
+			"amount": 1,
+			"measurement": "large",
+			"ingredient": "egg"
+		},
+		{
+			"amount": "2.25",
+			"measurement": "tsp",
+			"ingredient": "yeast"
+		},
+		{
+			"amount": 4,
+			"measurement": "cups",
+			"ingredient": "all-purpose flour"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "salt"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "coconut milk",
+			"addendum": "light"
+		},
+		{
+			"amount": 4,
+			"measurement": "tbsp",
+			"ingredient": "butter",
+			"addendum": "melted"
+		}
+	],
+	"recipe": [
+		"Combine and cream &$0, &$1, and &$2 together in a stand mixer with a whisk attachment",
+		"Add &$3 and combine until mixed",
+		"Add &$4, &$5, and &$6, and mix with a dough hook for 2-4 minutes until smooth, soft, and uniform",
+		"Let dough rest, covered with a tea towel for 2 hours until doubled",
+		"Cut dough into 10 equal portions, and roll each portion into a ball",
+		"Using a rolling pin, roll each dough ball into a circle, approximately 0.25 inch thick",
+		"Transfer to a baking pan and brush each circle with &$7, fold into a semi-circle, and brush again",
+		"Bake at 350F for 15 minutes or until golden brown"
+	],
+	"servings": 10,
+	"calories": 3410,
+	"tags": [
+		"Jamaican",
+		"side dish",
+		"bread",
+		"vegetarian"
+	]
+}
