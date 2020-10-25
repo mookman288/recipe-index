@@ -1,0 +1,68 @@
+{
+	"name": "mesir wat",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Mesir Wat or Misir Wat is a rich Ethiopian lentil stew that is often served with Injera bread.",
+	"ingredients": [
+		{
+			"amount": 4,
+			"measurement": "tbsp",
+			"ingredient": "butter"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": 4,
+			"measurement": "cloves",
+			"ingredient": "garlic"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "pink himalayan salt"
+		},
+		{
+			"amount": 4,
+			"measurement": "oz",
+			"ingredient": "tomato paste"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "vegan seasoning bouillon base"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "berbere seasoning"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "red lentils"
+		},
+		{
+			"amount": "2.25",
+			"measurement": "cups",
+			"ingredient": "water"
+		}
+	],
+	"recipe": [
+		"Heat &$0 in a 4 quart pot on medium heat",
+		"Dice &$1 and fry until browned",
+		"Lower heat to low and add &$2, &$3, &$4, &$5, and &$6 to the pot, cooking for 1-2 minutes until fragrant and smooth",
+		"Raise heat to high and add &$7 and &$8 to the pot and bring to a boil",
+		"Lower heat to low and cover, cooking for 15 minutes",
+		"Remove from heat and let sit for an additional 10-15 minutes"
+	],
+	"servings": 6,
+	"calories": 1240,
+	"tags": [
+		"Ethiopian",
+		"dinner",
+		"main dish",
+		"vegetarian"
+	]
+}
