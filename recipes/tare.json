@@ -1,0 +1,52 @@
+{
+	"name": "tare",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Tare is a seasoning sauce added to ramen to provide a salty, sweet flavor.",
+	"ingredients": [
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "water"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "mirin"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "soy sauce"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "sweet soy sauce"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "rice wine vinegar"
+		},
+		{
+			"amount": "1",
+			"measurement": "tbsp",
+			"ingredient": "brown sugar"
+		},
+		{
+			"amount": "1",
+			"measurement": "tsp",
+			"ingredient": "ginger garlic paste"
+		}
+	],
+	"recipe": [
+		"Combine all ingredients and simmer on low heat until reduced by half"
+	],
+	"servings": 1,
+	"calories": 600,
+	"tags": [
+		"Japanese",
+		"vegetarian"
+	]
+}

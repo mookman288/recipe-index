@@ -1,0 +1,100 @@
+{
+	"name": "ramen",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This is an Americanized ramen recipe that shortcutted with commonly available ingredients.",
+	"ingredients": [
+		{
+			"amount": "4",
+			"measurement": "oz",
+			"ingredient": "extra-firm tofu",
+			"addendum": "squeezed and pressed"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "soy sauce"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "rice wine vinegar"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "white sugar"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "canola oil"
+		},
+		{
+			"amount": 2,
+			"ingredient": "carrots"
+		},
+		{
+			"amount": 1,
+			"measurement": "packet",
+			"ingredient": "Yamasan vegetable bouillon powder"
+		},
+		{
+			"amount": 5,
+			"measurement": "cups",
+			"ingredient": "water"
+		},
+		{
+			"amount": 1,
+			"measurement": "recipe",
+			"ingredient": "tare"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "sambal oelek or sriracha"
+		},
+		{
+			"amount": 8,
+			"measurement": "oz",
+			"ingredient": "ramen or udon noodles"
+		},
+		{
+			"amount": 4,
+			"ingredient": "scallions"
+		},
+		{
+			"amount": 2,
+			"ingredient": "hard-boiled eggs"
+		},
+		{
+			"amount": 1,
+			"measurement": "sheet",
+			"ingredient": "seasoned nori"
+		},
+		{
+			"amount": 2,
+			"measurement": "oz",
+			"ingredient": "enoki mushroom"
+		}
+	],
+	"recipe": [
+		"Thinly slice &$0",
+		"Marinate &$0 in &$1, &$2, and &$3 for 20 minutes",
+		"Drain marinated &$0 and heat &$4 in a shallow pan on medium heat",
+		"Pan-fry &$0 until crispy brown, pat dry",
+		"Using existing &$4 in pan, fry &$5 on high heat until seared, pat dry",
+		"Boil &$6 in &$7 until fully dissolved",
+		"Incorporate &$8 and &$9 in broth to taste",
+		"Cook &$10 in broth to taste",
+		"Slice &$11, &$12, and &$13 lengthwise",
+		"Spoon noodle and broth into bowls and garnish with &$0, &$11, &$12, &$13, and &$14"
+	],
+	"servings": 4,
+	"calories": 2405,
+	"tags": [
+		"Japanese",
+		"dinner",
+		"vegetarian"
+	]
+}
