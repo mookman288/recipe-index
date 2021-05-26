@@ -35,12 +35,12 @@
 			"ingredient": "carrots"
 		},
 		{
-			"amount": 1,
-			"measurement": "packet",
+			"amount": 2,
+			"measurement": "packets",
 			"ingredient": "Yamasan vegetable bouillon powder"
 		},
 		{
-			"amount": 5,
+			"amount": 6,
 			"measurement": "cups",
 			"ingredient": "water"
 		},
