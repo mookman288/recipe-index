@@ -1,0 +1,94 @@
+{
+	"name": "sweet and sour sauce",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "An attempt at recreating the local American-Chinese Sweet and Sour Sauce. Soy sauce can be replaced with MSG to taste.",
+	"ingredients": [
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "water"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "pineapple juice"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "orange juice"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "lemon juice"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "apple cider vinegar"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "rice wine vinegar"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "ketchup"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "orange zest"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "lemon zest"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "sambal oelek"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "Chinese five spice"
+		},
+		{
+			"amount": "1.25",
+			"measurement": "cup",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": "1",
+			"measurement": "tbsp",
+			"ingredient": "plum sauce"
+		},
+		{
+			"amount": "1",
+			"measurement": "tbsp",
+			"ingredient": "soy sauce"
+		},
+		{
+			"amount": 7,
+			"measurement": "oz",
+			"ingredient": "pineapple chunks"
+		}
+	],
+	"recipe": [
+		"Combine all ingredients except &$14 and simmer on medium-high heat, whisking often, until reduced by half",
+		"Add &$14 and cook for an additional five minutes until tender"
+	],
+	"servings": 4,
+	"calories": 1370,
+	"tags": [
+		"Chinese",
+		"dinner",
+		"vegetarian"
+	]
+}

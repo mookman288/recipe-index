@@ -1,0 +1,94 @@
+{
+	"name": "burrito beans",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "These are a creamy ranch-style bean filling for burritos.",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "canola oil"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "butter"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": 1,
+			"ingredient": "morita chile"
+		},
+		{
+			"amount": 2,
+			"ingredient": "guajillo chile"
+		},
+		{
+			"amount": 3,
+			"measurement": "cloves",
+			"ingredient": "garlic"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "tomato paste"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "cumin"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "epazote"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "smoked paprika"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "vegetable bouillon base"
+		},
+		{
+			"amount": 14,
+			"measurement": "oz",
+			"ingredient": "pinto beans",
+			"addendum": "cooked"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "water"
+		}
+	],
+	"recipe": [
+		"Heat &$0 and &$1 in a small pot",
+		"Dice &$2 and fry on medium heat",
+		"Add &$3 and &$4 and fry for 1 minute on medium heat",
+		"Lower heat, mince &$5, and fry for 30 seconds on low heat",
+		"Add &$6 and cook on low heat until sticky",
+		"Add &$7, &$8, &$9, &$10, and &$11 and cook until fragrant",
+		"Drain and rinse &$12 and add to the pot",
+		"Add &$13 and boil on medium-high heat stirring often for 15 minutes"
+	],
+	"servings": 4,
+	"calories": 685,
+	"tags": [
+		"Mexican",
+		"lunch",
+		"dinner",
+		"vegetarian"
+	]
+}
