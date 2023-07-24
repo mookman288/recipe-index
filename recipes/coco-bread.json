@@ -1,19 +1,22 @@
 {
 	"name": "coco bread",
-	"author": "African Bites",
-	"authorLink": "https://www.africanbites.com/coco-bread/",
-	"description": "Slightly modified Coco Bread recipe, popular to serve on its own with cheese, or with a nice Jamaican curry.",
+	"author": "mookman288",
+	"description": "Popular to serve on its own with cheese, or with a nice Jamaican curry. Use coconut milk instead of milk for a more authentic experience!",
 	"ingredients": [
 		{
-			"amount": 3,
-			"measurement": "tbsp",
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "milk"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
 			"ingredient": "sugar"
 		},
 		{
 			"amount": 4,
-			"measurement": "tbsp",
-			"ingredient": "butter",
-			"addendum": "room temperature"
+			"measurement": "tsp",
+			"ingredient": "yeast"
 		},
 		{
 			"amount": 1,
@@ -21,12 +24,7 @@
 			"ingredient": "egg"
 		},
 		{
-			"amount": "2.25",
-			"measurement": "tsp",
-			"ingredient": "yeast"
-		},
-		{
-			"amount": 4,
+			"amount": 3,
 			"measurement": "cups",
 			"ingredient": "all-purpose flour"
 		},
@@ -36,27 +34,20 @@
 			"ingredient": "salt"
 		},
 		{
-			"amount": 1,
-			"measurement": "cup",
-			"ingredient": "coconut milk",
-			"addendum": "light"
-		},
-		{
 			"amount": 4,
 			"measurement": "tbsp",
-			"ingredient": "butter",
+			"ingredient": "unsalted butter",
 			"addendum": "melted"
 		}
 	],
 	"recipe": [
-		"Combine and cream &$0, &$1, and &$2 together in a stand mixer with a whisk attachment",
-		"Add &$3 and combine until mixed",
-		"Add &$4, &$5, and &$6, and mix with a dough hook for 2-4 minutes until smooth, soft, and uniform",
-		"Let dough rest, covered with a tea towel for 2 hours until doubled",
+		"Warm &$0 and combine with &$1 and &$2 and let stand for 10 minutes.",
+		"When &$2 has bloomed, add &$3, &$4, and &$5 and mix with a dough hook for 6 minutes until smooth, soft, and uniform",
+		"Let dough rest, covered for 1 hour until doubled",
 		"Cut dough into 10 equal portions, and roll each portion into a ball",
 		"Using a rolling pin, roll each dough ball into a circle, approximately 0.25 inch thick",
-		"Transfer to a baking pan and brush each circle with &$7, fold into a semi-circle, and brush again",
-		"Bake at 350F for 15 minutes or until golden brown"
+		"Transfer to a baking pan and brush each circle with &$6 and fold into a semi-circle",
+		"Bake at 425F for 8-10 minutes or until golden brown"
 	],
 	"servings": 10,
 	"calories": 3410,
