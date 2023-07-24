@@ -1,0 +1,50 @@
+{
+	"name": "golden milk",
+	"author": "Kim R.",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Golden Milk is an anti-inflammatory drink.",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "almond milk",
+			"addendum": "unsweetened"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "turmeric"
+		},
+		{
+			"amount": 1,
+			"measurement": "pinch",
+			"ingredient": "black pepper"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "tsp",
+			"ingredient": "cinnamon"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "tsp",
+			"ingredient": "ground ginger"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "maple syrup"
+		}
+	],
+	"recipe": [
+		"Combine and whisk together &$0, &$1, &$2, &$3, &$4, &$5",
+		"Heat for 3-4 minutes on medium-low without bringing to a boil"
+	],
+	"servings": 1,
+	"calories": 120,
+	"tags": [
+		"snack",
+		"vegetarian",
+		"vegan"
+	]
+}

@@ -1,0 +1,59 @@
+{
+	"name": "noodle koogle",
+	"description": "A simple family twist on a traditional Lokshen Kugle!",
+	"ingredients": [
+		{
+			"amount": 16,
+			"measurement": "oz",
+			"ingredient": "egg noodles",
+			"addendum": "extra wide"
+		},
+		{
+			"amount": 6,
+			"measurement": "large",
+			"ingredient": "egg"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": 8,
+			"measurement": "tbsp",
+			"ingredient": "butter",
+			"addendum": "softened"
+		},
+		{
+			"amount": 24,
+			"measurement": "oz",
+			"ingredient": "cottage cheese",
+			"addendum": "small-curd"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "salt"
+		},
+		{
+			"amount": 12,
+			"measurement": "oz",
+			"ingredient": "raisins"
+		}
+	],
+	"recipe": [
+		"Boil &$0 to package directions and rinse briefly with cold water",
+		"Whisk &$1 until uniform in color",
+		"Combine &$1, &$2, &$3, &$4, &$5, and &$6 and mix thoroughly",
+		"Fold &$0 into mixture",
+		"Bake covered at 350F for 1 hour or until a knife cut into the center comes out clean"
+	],
+	"servings": 16,
+	"calories": 5340,
+	"tags": [
+		"Jewish",
+		"side dish",
+		"dessert",
+		"vegetarian"
+	]
+}

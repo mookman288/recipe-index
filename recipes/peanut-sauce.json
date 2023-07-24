@@ -1,0 +1,55 @@
+{
+	"name": "peanut sauce",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "Thai-style peanut satay or stir fry sauce.",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "thai red curry paste"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "vegetarian fish sauce"
+		},
+		{
+			"amount": "2",
+			"measurement": "tbsp",
+			"ingredient": "healthy boy thai dark soy sauce"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "sugar"
+		},
+		{
+			"amount": "0.50",
+			"measurement": "cup",
+			"ingredient": "reduced fat creamy peanut butter"
+		},
+		{
+			"amount": 1,
+			"measurement": "tbsp",
+			"ingredient": "rice wine vinegar"
+		},
+		{
+			"amount": 14,
+			"measurement": "oz",
+			"ingredient": "lite coconut milk"
+		}
+	],
+	"recipe": [
+		"Combine all ingredients",
+		"Simmer for 4-5 minutes"
+	],
+	"servings": 4,
+	"calories": 1260,
+	"tags": [
+		"Thai",
+		"dinner",
+		"vegetarian",
+		"vegan"
+	]
+}

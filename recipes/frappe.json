@@ -1,0 +1,55 @@
+{
+	"name": "frappe",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This is a basic frappe. Using any kind of coffee syrup will change the flavor.",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "ice cubes"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "milk"
+		},
+		{
+			"amount": "3",
+			"measurement": "tbsp",
+			"ingredient": "simple syrup"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "water"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "instant coffee",
+			"addendum": "freeze dried"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "xanthum gum"
+		}
+	],
+	"recipe": [
+		"Add &$0, &$1 and &$2 to a blender",
+		"Heat &$3 until just boiling",
+		"Add &$4 to &$3 and mix",
+		"Add &$5 to mixture and whisk until combined and thickened",
+		"Pour mixture into blender",
+		"Blend, starting on low and increasing to high until frothy and light in color"
+	],
+	"servings": 1,
+	"calories": 345,
+	"tags": [
+		"American",
+		"dessert",
+		"snack",
+		"vegetarian"
+	]
+}

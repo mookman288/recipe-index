@@ -1,0 +1,45 @@
+{
+	"name": "green bean casserole",
+	"description": "The basic green bean casserole.",
+	"ingredients": [
+		{
+			"amount": 28,
+			"measurement": "oz",
+			"ingredient": "french-style green beans",
+			"addendum": "canned"
+		},
+		{
+			"amount": 0.75,
+			"measurement": "cup",
+			"ingredient": "milk"
+		},
+		{
+			"amount": 2,
+			"measurement": "tsp",
+			"ingredient": "pepper"
+		},
+		{
+			"amount": 10.5,
+			"measurement": "oz",
+			"ingredient": "condensed cream of mushroom soup"
+		},
+		{
+			"amount": 6,
+			"measurement": "oz",
+			"ingredient": "french fried onions"
+		}
+	],
+	"recipe": [
+		"Rinse &$0 thoroughly",
+		"Combine &$0, &$1, &$2, &$3, and half of the &$4",
+		"Bake 350F for 20-25 minutes",
+		"Sprinkle remaining &$4 on top and bake an additional 5 minutes"
+	],
+	"servings": 8,
+	"calories": 1600,
+	"tags": [
+		"American",
+		"side dish",
+		"vegetarian"
+	]
+}

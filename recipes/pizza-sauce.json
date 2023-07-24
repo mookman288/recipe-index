@@ -16,12 +16,13 @@
 		},
 		{
 			"amount": 1,
+			"measurement": "tsp",
 			"ingredient": "garlic clove"
 		},
 		{
-			"amount": "1",
+			"amount": 1.5,
 			"measurement": "tsp",
-			"ingredient": "salt"
+			"ingredient": "onion salt"
 		},
 		{
 			"amount": 1,
@@ -49,10 +50,6 @@
 			"amount": 1,
 			"measurement": "tsp",
 			"ingredient": "sugar"
-		},
-		{
-			"amount": 1,
-			"ingredient": "onion"
 		}
 	],
 	"recipe": [
@@ -61,7 +58,6 @@
 		"Add &$2 and &$3 mixture, and &$4 to the pan and cook for 30 seconds",
 		"Add &$5 and &$6 to the pan",
 		"Add &$7 and &$8 to the pan and mix thoroughly",
-		"Slice &$9 in half and place in sauce",
 		"Continue to cook on medium heat until fat separates and sauce thickens"
 	],
 	"servings": 2,
