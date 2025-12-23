@@ -2,7 +2,7 @@
 	"name": "frappe",
 	"author": "mookman288",
 	"authorLink": "https://github.com/mookman288/",
-	"description": "This is a basic frappe. Using any kind of coffee syrup will change the flavor.",
+	"description": "This is a basic frappe. Using any kind of coffee syrup will change the flavor. For a healthier alternative, try plant-based milk and low-calorie sweeteners.",
 	"ingredients": [
 		{
 			"amount": 1,
@@ -31,13 +31,13 @@
 			"addendum": "freeze dried"
 		},
 		{
-			"amount": "0.5",
+			"amount": "0.25",
 			"measurement": "tsp",
 			"ingredient": "xanthum gum"
 		}
 	],
 	"recipe": [
-		"Add &$0, &$1 and &$2 to a blender",
+		"Add &$0, &$1, and &$2 to a blender",
 		"Heat &$3 until just boiling",
 		"Add &$4 to &$3 and mix",
 		"Add &$5 to mixture and whisk until combined and thickened",

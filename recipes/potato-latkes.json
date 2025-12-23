@@ -1,0 +1,52 @@
+{
+	"name": "potato latkes",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This recipe uses a food processor, but you can also perform the shredding and pulsing by hand.",
+	"ingredients": [
+		{
+			"amount": 6,
+			"ingredient": "potatoes",
+			"addendum": "peeled"
+		},
+		{
+			"amount": 1,
+			"ingredient": "onion"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "kosher salt"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "matzo meal"
+		},
+		{
+			"amount": 1,
+			"measurement": "cup",
+			"ingredient": "canola oil"
+		}
+	],
+	"recipe": [
+		"Rinse and clean &$0 and &$1",
+		"Shred &$0 and &$1 in a food processor using the shredder attachment",
+		"Rinse &$0 and &$1 mixture",
+		"Pulse &$0 and &$1 a few times in a food processor using the blade attachment",
+		"Squeeze excess water out of &$0 and &$1 mixture",
+		"Combine &$0, &$1, &$2, and &$3 and form latkes 1/2 inch thick",
+		"Heat &$4 on medium heat until 350F",
+		"Fry latkes for 5 minutes covered",
+		"Flip latkes and continue frying uncovered for 5 minutes",
+		"Drain latkes well"
+	],
+	"servings": 14,
+	"calories": 3980,
+	"tags": [
+		"Jewish",
+		"side dish",
+		"snack",
+		"vegan"
+	]
+}

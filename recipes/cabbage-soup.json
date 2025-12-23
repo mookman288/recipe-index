@@ -1,0 +1,102 @@
+{
+	"name": "cabbage soup",
+	"author": "mookman288",
+	"authorLink": "https://github.com/mookman288/",
+	"description": "This is a traditional Jewish/Hungarian sweet and sour cabbage soup",
+	"ingredients": [
+		{
+			"amount": 1,
+			"measurement": "head",
+			"ingredient": "cabbage",
+			"addendum": "small"
+		},
+		{
+			"amount": 1,
+			"ingredient": "red onion"
+		},
+		{
+			"amount": 48,
+			"measurement": "oz",
+			"ingredient": "tomato juice"
+		},
+		{
+			"amount": 48,
+			"measurement": "oz",
+			"ingredient": "water"
+		},
+		{
+			"amount": 2,
+			"measurement": "tbsp",
+			"ingredient": "vegetable bouillon paste"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "apple cider vinegar"
+		},
+		{
+			"amount": "0.125",
+			"measurement": "cup",
+			"ingredient": "lemon juice"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "cup",
+			"ingredient": "ketchup"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "white sugar"
+		},
+		{
+			"amount": "0.25",
+			"measurement": "cup",
+			"ingredient": "brown sugar"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "salt"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "pepper"
+		},
+		{
+			"amount": 1,
+			"measurement": "tsp",
+			"ingredient": "sweet paprika"
+		},
+		{
+			"amount": "0.5",
+			"measurement": "tsp",
+			"ingredient": "nutmeg"
+		},
+		{
+			"amount": "1",
+			"measurement": "tbsp",
+			"ingredient": "flat-leaf parsley"
+		},
+		{
+			"amount": "0.33",
+			"measurement": "cup",
+			"ingredient": "raisins"
+		}
+	],
+	"recipe": [
+		"Wash &$0 and chop into 1-inch squares",
+		"Chop &$1 into eighths",
+		"Combine all ingredients and boil on medium-high for 30-40 minutes"
+	],
+	"servings": 12,
+	"calories": 2100,
+	"tags": [
+		"Jewish",
+		"Hungarian",
+		"dinner",
+		"vegetarian",
+		"vegan"
+	]
+}
