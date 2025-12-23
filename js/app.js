@@ -342,7 +342,7 @@ const app = (() => {
 
 	document.querySelector('.qr-code').setAttribute(
 		'src',
-		'https://quickchart.io/qr?text=' + window.location.href
+		'https://quickchart.io/qr?size=244&text=' + window.location.href
 	);
 
 	getRecipes();
